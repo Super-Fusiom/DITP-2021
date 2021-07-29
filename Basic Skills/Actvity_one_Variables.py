@@ -7,12 +7,30 @@
 #Created on 28/7/21
 
 #Ask user for name
-name
+print('Enter your name')
+name = input()
 
 #Ask user for favourite color
-
+print("what's your favorite color?")
+fcolor = input()
 #Ask user for favorurite numbers
-
+print("What is your first favorite number?")
+while True:
+    try:
+        num1 = int(input())
+        break
+    except ValueError:
+        print("NUMBER PLEASE")
+print("What is your second favorite number?")
+while True:
+    try:
+        num2 = int(input())
+        break
+    except ValueError:
+        print("NUMBER PLEASE")
 #Do the Maths
-
+fnum = num1 + num2
 #Output Greeting and print results
+print("Hi", name)
+print('Your favorite color is' , fcolor)
+print("Your super number is", fnum,"\nFrom the numbers" , num1 , '&' , num2)

@@ -6,3 +6,17 @@
 print ("Bing bing bong")
 print ("Waiting for varibles")
 print ("ZZZZZZZZZZZZZZZZZZZZZ")
+
+
+
+#Variables
+
+a = 5
+b = 6
+c = a+b
+print(a+b)
+
+#strings
+
+color = "red"
+print("I like", color)
