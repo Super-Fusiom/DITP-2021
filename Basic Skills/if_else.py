@@ -13,7 +13,7 @@ print("You must be at least",minage," to be a babysitter\n")
 name = input("What is your name: ")
 age = int(input("How old are you? "))
 #Check if user is under 14, if so then decline.
-#If they are over 14 then approve
+#If they are at or over 14 then approve
 if age < minage:
 	print("Sorry",name,', ', age, "is too young to be a babysitter.")
 else:
