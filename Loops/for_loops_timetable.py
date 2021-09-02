@@ -7,5 +7,7 @@
 num = int(input("Enter your number: "))
 times = int(input("How many times?: "))
 
+#print all answer!!!
+
 for answer in range (1,times+1):
     print(num,"*",answer,"=", num*answer)
