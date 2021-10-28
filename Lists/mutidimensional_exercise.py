@@ -22,6 +22,15 @@ print()
 grades = [["Maths", 75],["English", 62],["PE", 45],['DT',100]]
 print('*******************\n***** Results *****\n*******************')
 
+
+'''Putting and in the conditions prints only one grade insted of 2
+e.g if score >= 90:
+        g = 'A'
+    elif score >= 70:
+        g = 'B' 
+        
+This will print out DT:AB '''
+print()
 for grade in grades:
     subject = grade[0]
     score = grade[1]
